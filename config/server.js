@@ -1,6 +1,6 @@
 module.exports = ({ env }) => ({
-  host: env('HOST', '127.0.0.1'),
-  port: env.int('PORT', 5432),
+  host: env('HOST', 'containers-us-west-147.railway.app'),
+  port: env.int('PORT', 6131),
   app: {
     keys: env.array('APP_KEYS'),
   },
