@@ -91,7 +91,7 @@ module.exports = (plugin) => {
       if (!validPassword) {
         throw new ValidationError("Invalid identifier or password");
       } 
-      //Is this redundent?
+      //Is this redundent? I can not access these cookies from my client, so I send them in the json res, then set the cookies from the client.
       // else {
       //   ctx.cookies.set("refreshToken", issueRefreshToken({ id: user.id }), {
       //     httpOnly: true,

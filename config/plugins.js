@@ -2,10 +2,10 @@ module.exports = ({ env }) => ({
   "users-permissions": {
     config: {
       jwt: {
-        expiresIn: "15m",
+        expiresIn: env("JWT_SECRET_EXPIRES")
       },
       refreshToken: {
-        expiresIn: "30m",
+        expiresIn: env("REFRESH_TOKEN_EXPIRES"),
       },
     },
   },
