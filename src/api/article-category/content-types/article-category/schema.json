@@ -22,6 +22,9 @@
       "relation": "manyToMany",
       "target": "api::article.article",
       "inversedBy": "article_categories"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
