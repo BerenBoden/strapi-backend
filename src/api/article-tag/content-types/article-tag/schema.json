@@ -25,6 +25,10 @@
     },
     "slug": {
       "type": "string"
+    },
+    "meta_description": {
+      "type": "text",
+      "required": false
     }
   }
 }

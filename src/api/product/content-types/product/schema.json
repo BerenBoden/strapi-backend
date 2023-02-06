@@ -41,12 +41,6 @@
       "target": "api::product-tag.product-tag",
       "inversedBy": "products"
     },
-    "product_categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::product-category.product-category",
-      "inversedBy": "products"
-    },
     "image_header": {
       "allowedTypes": [
         "images",
@@ -56,6 +50,12 @@
       ],
       "type": "media",
       "multiple": false
+    },
+    "product_categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product-category.product-category",
+      "mappedBy": "category_products"
     }
   }
 }

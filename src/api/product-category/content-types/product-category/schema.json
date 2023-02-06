@@ -15,14 +15,18 @@
     "name": {
       "type": "string"
     },
-    "products": {
+    "category_products": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::product.product",
-      "mappedBy": "product_categories"
+      "inversedBy": "product_categories"
     },
     "slug": {
       "type": "string"
+    },
+    "meta_description": {
+      "type": "text",
+      "required": true
     }
   }
 }
