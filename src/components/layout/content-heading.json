@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_layout_content_headings",
+  "info": {
+    "displayName": "ContentHeading",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

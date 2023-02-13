@@ -12,17 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "hero_content": {
-      "type": "richtext",
+    "featured": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.content-heading",
       "required": true
     },
-    "hero_images": {
-      "type": "media",
-      "multiple": true,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.content-heading"
     }
   }
 }

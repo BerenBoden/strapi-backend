@@ -42,20 +42,26 @@
       "inversedBy": "products"
     },
     "image_header": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "product_categories": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::product-category.product-category",
       "mappedBy": "category_products"
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }
