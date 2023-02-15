@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_seo_meta_informations",
+  "info": {
+    "displayName": "MetaInformation",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "meta_description": {
+      "type": "string"
+    },
+    "meta_title": {
+      "type": "text"
+    }
+  }
+}

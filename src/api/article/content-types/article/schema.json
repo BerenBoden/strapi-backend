@@ -47,6 +47,15 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "views": {
+      "type": "biginteger",
+      "default": "0"
+    },
+    "meta_information": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.meta-information"
     }
   }
 }

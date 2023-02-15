@@ -62,6 +62,16 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "reviews": {
+      "type": "enumeration",
+      "enum": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five"
+      ]
     }
   }
 }
